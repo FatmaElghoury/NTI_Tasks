@@ -1,0 +1,7 @@
+git add .
+
+
+git commit -m "Add Day2 task"
+
+
+git push
