@@ -136,11 +136,11 @@
 //         console.log(stars);
 //     }
 //   //////////========26.===========
-var studentsNames = ["Sara","Omar","ahmed","Youssef","laila","hassan"];
-studentsNames.forEach(element => {
-    var item = element.toUpperCase();
-    if(item.startsWith("A")||item.startsWith("S"))
-        console.log(item);
-        
+//   var studentsNames = ["Sara","Omar","ahmed","Youssef","laila","hassan"];
+//   studentsNames.forEach(element => {
+//       var item = element.toUpperCase();
+//       if(item.startsWith("A")||item.startsWith("S"))
+//           console.log(item);
+//   });
 
-});
+console.log(isFinite("123"));
