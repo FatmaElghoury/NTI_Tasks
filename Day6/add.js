@@ -13,7 +13,7 @@ document.getElementById("addProductBtn").addEventListener("click", function () {
     );
 
 
-    // Validation
+    
 
     if (name.trim() === "") {
         alert("Product name is required");
@@ -36,7 +36,8 @@ document.getElementById("addProductBtn").addEventListener("click", function () {
     }
 
 
-    // Create product
+   
+    
 
     var product = createProduct(
         name,

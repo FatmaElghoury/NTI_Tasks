@@ -7,13 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log("Product ID:", id);
 
-    // Get product
+   
     var product = getProductById(id);
 
     console.log("Product:", product);
 
 
-    // If product exists
+    
     if (product) {
 
         document.getElementById("productId").value = product.id;
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    // Update button
+    
     document.getElementById("updateBtn").addEventListener("click", function () {
 
         var name = document.getElementById("productName").value;

@@ -1,4 +1,4 @@
-/* Edit Page */
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ body {
 }
 
 
-/* Header */
+
 
 .header {
     height: 80px;
@@ -119,7 +119,7 @@ body {
 }
 
 
-/* Buttons */
+
 
 .buttons {
     display: flex;

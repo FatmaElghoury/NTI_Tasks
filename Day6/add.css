@@ -9,7 +9,7 @@ body {
     color: #222;
 }
 
-/* ================= HEADER ================= */
+
 
 header {
     height: 70px;
@@ -44,7 +44,7 @@ nav a:hover {
 }
 
 
-/* ================= MAIN ================= */
+
 
 main {
     width: 55%;
@@ -64,7 +64,7 @@ h1 {
 }
 
 
-/* ================= FORM ================= */
+
 
 #productDetails {
     background-color: white;
@@ -105,7 +105,7 @@ input:focus {
     border-color: #4f46e5;
 }
 
-/* ================= BUTTONS ================= */
+
 
 .buttons {
     display: flex;
@@ -133,7 +133,7 @@ input:focus {
 }
 
 
-/* ================= ADD BUTTON ================= */
+
 
 .add {
     background-color: #4f46e5;
@@ -148,7 +148,7 @@ input:focus {
 }
 
 
-/* ================= CANCEL BUTTON ================= */
+
 
 .cancel {
     background-color: #f1f1f1;

@@ -277,7 +277,7 @@ function addDeleteEvents() {
 }
 
 
-// Run when page loads
+
 
 window.onload = function () {
 
