@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ================= FORM ================= */
+
+#title,
+#body {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+#title {
+    width: 250px;
+}
+
+#body {
+    width: 350px;
+}
+
+#title:focus,
+#body:focus {
+    border-color: #4f46e5;
+}
+
+/* ================= BUTTON ================= */
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3730a3;
+}
+
+/* ================= POSTS ================= */
+#posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin-top: 0;
+    color: #4f46e5;
+    text-transform: capitalize;
+}
+
+.post p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Edit Button */
+#posts button:first-of-type {
+    background-color: #f59e0b;
+    margin-right: 8px;
+}
+
+#posts button:first-of-type:hover {
+    background-color: #d97706;
+}
+
+/* Delete Button */
+#posts button:last-of-type {
+    background-color: #dc2626;
+}
+
+#posts button:last-of-type:hover {
+    background-color: #b91c1c;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+    #posts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    #title,
+    #body {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #addBtn {
+        width: 100%;
+    }
+
+    #posts {
+        grid-template-columns: 1fr;
+    }
+}
