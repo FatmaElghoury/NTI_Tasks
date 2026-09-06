@@ -1,0 +1,170 @@
+.home {
+  min-height: calc(100vh - 70px);
+  background: #f5f7ff;
+  display: flex;
+  align-items: center;
+  padding: 60px 8%;
+}
+
+.home-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* Text */
+
+.text-content {
+  flex: 1;
+}
+
+.welcome {
+  color: #4f46e5;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.text-content h1 {
+  font-size: 52px;
+  line-height: 1.15;
+  color: #1f2937;
+  margin-bottom: 25px;
+}
+
+.text-content h1 span {
+  display: block;
+  color: #4f46e5;
+}
+
+.description {
+  color: #6b7280;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.buttons a {
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: #4f46e5;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #4338ca;
+}
+
+.btn-secondary {
+  color: #4f46e5;
+  border: 2px solid #4f46e5;
+  background: white;
+}
+
+.btn-secondary:hover {
+  background: #4f46e5;
+  color: white;
+}
+
+/* Code Card */
+
+.image-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.code-card {
+  width: 430px;
+  background: #1e293b;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.dots {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 20px;
+}
+
+.dots span {
+  width: 12px;
+  height: 12px;
+  background: #64748b;
+  border-radius: 50%;
+}
+
+.code-card pre {
+  margin: 0;
+  color: #e2e8f0;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+
+  .home-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .text-content h1 {
+    font-size: 40px;
+  }
+
+  .code-card {
+    width: 100%;
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .home {
+    padding: 40px 20px;
+  }
+
+  .text-content h1 {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
